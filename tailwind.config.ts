@@ -57,6 +57,27 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // PulseView Custom Colors
+        'sentiment-positive': "hsl(var(--sentiment-positive))",
+        'sentiment-negative': "hsl(var(--sentiment-negative))",
+        'sentiment-neutral': "hsl(var(--sentiment-neutral))",
+        'chart-1': "hsl(var(--chart-1))",
+        'chart-2': "hsl(var(--chart-2))",
+        'chart-3': "hsl(var(--chart-3))",
+        'chart-4': "hsl(var(--chart-4))",
+        'chart-5': "hsl(var(--chart-5))",
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'card': 'var(--shadow-card)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",
